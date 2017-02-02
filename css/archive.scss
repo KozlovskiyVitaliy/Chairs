@@ -1,0 +1,143 @@
+.wrapper{
+	background: linear-gradient(to bottom, #ffffff 10%,#e5e1dc 10%);
+}
+.header{
+	width: 100%;
+	background: #fff;
+	float: none;
+	padding-bottom: 0 !important;
+}
+.nav{
+	padding-top: 30px;
+}
+a{
+	text-decoration: none;
+}
+.slick-next{
+	left: 56px;
+}
+.slick-prev{
+	left: 23px;
+}
+.slider_circle{
+	left: -56px;
+}
+.breadcrumbs{
+	padding: 40px 0 20px 180px;
+	clear: both;
+	span,.breadcrumbs_link,.breadcrumbs_last-link{
+		color: #552213;
+		font-family: PTSerif;
+		font-size: 14px;
+		line-height: 16px;
+		.breadcrumbs_link{
+			text-decoration: underline;
+		}
+		.breadcrumbs_last-link{
+			font-weight: 700;
+		}
+	}
+}
+.content{
+	float: left;
+}
+.content_top_left{
+	float: left;
+}
+.content_top{
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	border-bottom: 7px solid black;
+	border-image: url(../img/line1.png) 30 round round;
+	h3{
+		color: #552213;
+		font-family: PTSerif;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 26px;
+	}
+	.content_top_text{
+		padding-right: 45px;
+		width: 295px;
+		span{
+			color: #552213;
+			font-family: PTSerif;
+			font-size: 17px;
+			line-height: 26px;
+			p{
+				padding-top: 10px;
+				font-size: 14px;
+				line-height: 21px;
+			}
+		}
+	}
+	.content_top_table{
+		table{
+			display: block;
+			padding-bottom: 35px;
+			color: #552213;
+			font-family: PTSerif;
+			font-size: 17px;
+			line-height: 36px;
+			tr:first-child{
+				border-bottom: 3px solid #552213;
+			}
+			tr{
+				border-bottom: 1px solid #552213;
+				td{
+					padding-right: 43px;
+				}
+			}
+		}
+	}
+}
+.content_top_right{
+	float: right;
+}
+.content_top_link{
+	float: left;
+	a{
+		background-color: #552213;
+		padding: 5px 20px;
+		color: white;
+		font-family: Lato;
+		font-size: 15px;
+		font-weight: 700;
+		line-height: 17px;
+		border-radius: 56px;
+		display: block;
+		&:hover{
+			background: #fff;
+			color:#552213;
+			border:1px solid #552213;
+			padding: 4px 20px;
+		}
+	}
+}
+.content_social{
+	padding-bottom: 35px;
+	img{
+		display: block;
+	}
+}
+.content_bottom_item{
+	padding-right: 20px;
+	float: left;
+	.bottom_item-pic{
+		padding-bottom: 15px;
+		img{
+			display: block;
+		}
+	}
+	.bottom_item_text{
+		max-width: 177px;
+		color: #552213;
+		font-family: PTSerif;
+		font-size: 16px;
+		line-height: 21px;
+	}
+}
+.content_subscribe{
+	clear: both;
+}
